@@ -31,5 +31,4 @@ public class Administrador extends Empleado{
         System.out.println("Administrador: " + nombres + " " + apellidos + ", Código: " + codigo +
                 ", N° Social: " + numeroSocial + ", Salario: $" + calcularSalario());
     }
-
 }
