@@ -11,6 +11,6 @@ package ec.edu.espoch.controldeempleados;
 public class ControlDeEmpleados {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
     }
 }
