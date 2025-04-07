@@ -24,4 +24,16 @@ abstract class Empleado {
         this.sueldoBasico = sueldoBasico;
     }
 
+    public abstract double calcularSalario();
+
+    public int getCodigo() {
+        return codigo;
+    }//
+
+    public void imprimirDatos() {
+        System.out.println("Código: " + codigo);
+        System.out.println("Nombre: " + nombres + " " + apellidos);
+        System.out.println("Dirección: " + direccion);
+        System.out.println("Salario: " + calcularSalario());
+    }
 }
