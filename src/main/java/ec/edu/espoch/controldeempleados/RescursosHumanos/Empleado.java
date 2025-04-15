@@ -7,8 +7,9 @@ package ec.edu.espoch.controldeempleados.RescursosHumanos;
 /**
  *
  * @author mundo
- */
-abstract class Empleado {
+ */ 
+
+public abstract class Empleado {
 
     protected int codigo;
     protected String nombres;
